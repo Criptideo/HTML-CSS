@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Sobre imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/pequena.png" alt="Média" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/media.png" alt="Média" type="image/png">
+        <img src="imagens/grande.png" alt="Foto Grande">
+    </picture>
+    <h1>Áudio</h1>
+    <audio src="audio/subspace tripmine.mp3" controls autoplay></audio>
+    <audio preload="auto" autoplay>
+        <source src="audio/subspace tripmine.mp3" type="audio/mpeg">
+        <source src="audio/subspace tripmine.ogg" type="audio/ogg">
+        <source src="audio/subspace tripmine.wav" type="audio/wav">
+        <!--sempre evitar arquivos wav pois são grandes e pesados-->
+        <p>Infelizmente seu navegador não é capaz de reproduzir o aúdio. <a href="audio/subspace tripmine.mp3" download="audio/subspace tripmine.mp3" type="application/mpeg">Clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+    <!--MP3, WAV, OGG-->
+</body>
+</html>
