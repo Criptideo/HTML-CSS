@@ -5,6 +5,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-image: linear-gradient(to right, #e27a42, #D94F04);
+}
+
+main{
+    background-color: #f7f1f0;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgba(83, 37, 0, 0.733);
+}
+
 p {
     text-align: justify;
+}
+
+h1 {
+    color:#025259;
+    text-align: center;
+    text-shadow: 1px 1px 1px #014046d5;
+}
+
+h2 {
+    color: #007172;
 }
